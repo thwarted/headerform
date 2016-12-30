@@ -1,3 +1,5 @@
+# headerform text table layout in go
+
 Descriptive text table formatting for command line/terminal go programs.
 
 Describe the layout using a literal, visual format, then feed strings into it.
