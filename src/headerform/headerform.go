@@ -260,7 +260,7 @@ func (b *HeaderFormatter) recalculateFlexibleColumns() {
 	}
 	m := new(mmax)
 	for _, c := range b.flexCols {
-		*m = 0
+		*m = mmax(len(b.headers[c]))
 		for i := 0; i < len(b._buffer); i++ {
 			if len(b._buffer[i]) > c {
 				m.Max(len(b._buffer[i][c]))
