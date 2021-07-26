@@ -8,13 +8,9 @@ Both fixed width (explicitly defined by the layout) and flexible width (sized ba
 length of the data in a column) are supported.  A single layout can use both fixed and flexible columns
 in the same output.
 
-See `src/main.go` for sample code.
+See `examples/headerformexample.go` for sample code.
 
 See the documentation for the `FormatAs` function for more detail on the layout specification.
-
-## TODO
-
-This repo layout is lame and is stupid for use with `go get`.
 
 ## Fixed Layout
 
